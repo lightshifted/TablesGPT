@@ -13,7 +13,7 @@
 </p>
 
 <div align="center">
-<img src="./table_extraction_alpha.gif" height="730" align="center"/>
+<img src="./example.gif" height="730" align="center"/>
 
 <i>Data Extraction</i>
 </div>
@@ -60,11 +60,6 @@ $ python -m pip install -r requirements.txt
 ```bash
 $ python app.py
 ```
-
-### Supporting TablesGPT
-
-If you would like to support the project financially, visit our campaign on [OpenCollective](). Your contributions help accelerate the development of TablesGPT!
-
 
 ### Interested in Contributing?
 We welcome and appreciate any contributions to our community-driven project. Our goals are to enhance the accessibility and usability of tabular data manipulation, and to make it significantly easier for users with limited technical expertise to interact with and analyze complex datasets. 🚀
