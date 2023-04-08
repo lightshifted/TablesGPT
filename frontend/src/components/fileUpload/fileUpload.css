@@ -1,0 +1,70 @@
+.file-upload-container {
+    width: 400px;
+    height: 250px;
+    border: 2px dashed #b7b7b7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .file-upload-container.dragging {
+    border: 2px dashed #2196f3;
+  }
+  
+  .file-upload-message {
+    text-align: center;
+  }
+  
+  .drag-drop-message {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .or-message {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .browse-link {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+    color: #2196f3;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .browse-link:hover {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .file-name {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .submit-button {
+    display:inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: 2px solid #8BC34A;
+    border-radius: 5px;
+    color: #8BC34A;
+    font-size: 16px;
+    background-color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #8BC34A;
+    color: #fff;
+  }
