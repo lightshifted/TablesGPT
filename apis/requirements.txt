@@ -1,0 +1,10 @@
+openai
+llama-index
+PyPDF2
+guardrails-ai
+langchain
+kor
+Werkzeug==2.2.2
+flask
+python-dotenv
+jsonify
