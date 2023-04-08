@@ -1,6 +1,9 @@
 <h1 align="center" >
 <img src="./logo.svg" alt="TablesGPT" height="110" align="center">
 <br >TablesGPT
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+
 </h1>
 
 <p><b>TablesGPT</b> is a powerful and versatile open-source application that allows users to extract, organize, analyze, and visualize tabular data from files using natural language commands.
