@@ -33,16 +33,19 @@
 - [ ] <b>SQL Query Export: </b> Provide users with the ability to generate SQL queries tailored for inserting the generated JSON data into their preferred database system.
 
 ## Getting Started
+### Setting  your OpenAI API Key
+1. Navigate to the `apis` directory 
+2. Update the `.env` file with your OpenAI API key.
 ### Starting the React Frontend
 1. Navigate to the `frontend` directory:
 ```bash
 $ cd frontend
 ```
-2. Install the required dependencies (if you haven't already):
+1. Install the required dependencies (if you haven't already):
 ```bash
 $ npm install
 ```
-3. Start the React frontend:
+1. Start the React frontend:
 ```bash
 $ npm start
 ```
@@ -68,7 +71,8 @@ We welcome and appreciate any contributions to our community-driven project. Our
 Discussions, bug reports, issues, and pull requests are all welcome. If you're interested in contributing through pull requests, please follow the guidelines below.
 
 #### Pull Request Guidelines
-* Review Issues and Pull Requests before submitting your own.
+
+* Review [Issues](https://github.com/lightshifted/TablesGPT/issues) and [Pull Requests](https://github.com/lightshifted/TablesGPT/pulls) before submitting your own.
 * Fork the repository and create your branch from the master branch.
 * Make sure your code is well-documented, easy to understand, and readable.
 * Provide a clear and concise description of the changes made in the pull request.
