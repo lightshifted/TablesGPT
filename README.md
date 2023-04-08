@@ -1,21 +1,30 @@
-<h1 align="center">
+<h1 align="center" >
 <img src="./logo.svg" alt="TablesGPT" height="110" align="center">
-<br>TablesGPT
+<br >TablesGPT
 </h1>
 
-<p><b>TablesGPT</b> is a powerful and versatile open-source application that allows users to extract, organize, analyze, and visualize data from files using natural language commands.
+<p><b>TablesGPT</b> is a powerful and versatile open-source application that allows users to extract, organize, analyze, and visualize tabular data from files using natural language commands.
 </p>
 
 
-<h4>To Do:</h4>
+<h4 style="font-family: Monospace">To Do:</h4>
 
 - [ ] Finalize v1 of Project Roadmap <br>
-- [ ] Commit project files to repository <br>
+- [ ] Commit first project files to repository <br>
 - [ ] Create project Discord server <br> 
+- [ ] Create project collective for fundraising on [Open Collective](https://opencollective.com/)
 
-<h3>Join Our Discord</h3>
+<h3 style="font-family: Monospace">Join Our Discord</h3>
 
-<h3>Getting Started</h3>
+<h3 style="font-family: Monospace">Getting Started</h3>
 
-<h3>Contributing Guidelines</h3>
-<p>Please consider contributing to our community-driven project and help shape the future of productivity applications. Guidelines for contributors are located here.</p>
+<h3 style="font-family: Monospace">Supporting TablesGPT</h3>
+
+If you would like to support the project financially, visit our campaign on [OpenCollective](). Your contributions help accelerate the development of TablesGPT!
+
+
+<h3 style="font-family: Monospace">Interested in Contributing?</h3>
+<p>Please consider contributing to our community-driven project and help shape the future of productivity applications.</p>
+
+1. Read the [Code of Conduct](https://www.contributor-covenant.org/) <br>
+2. Read the [Contributing Guidelines]() <br>
