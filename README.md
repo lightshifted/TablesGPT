@@ -9,29 +9,74 @@
 
 </div>
 
-
 <p><b>TablesGPT</b> is a powerful and versatile open-source application that allows users to extract, organize, analyze, and visualize tabular data from files using natural language commands.
 </p>
 
+<div align="center">
+<img src="./table_extraction_alpha.gif" height="730" align="center"/>
 
-<h4 style="font-family: Monospace">To Do:</h4>
+<i>Data Extraction</i>
+</div>
 
-- [ ] Finalize v1 of Project Roadmap <br>
-- [ ] Commit first project files to repository <br>
-- [ ] Create project Discord server <br> 
-- [ ] Create project collective for fundraising on [Open Collective](https://opencollective.com/)
+## Features Roadmap
 
-<h3 style="font-family: Monospace">Join Our Discord</h3>
 
-<h3 style="font-family: Monospace">Getting Started</h3>
+### Extract
 
-<h3 style="font-family: Monospace">Supporting TablesGPT</h3>
+- [ ] <b>PDF Table Extraction:</b> Enable users to efficiently extract structured tabular data from PDF documents. The implementation will be designed to handle varying table formats, with the capability to accurately identify and parse data from both simple and complex table structures.<br>
+
+### Transform
+
+- [ ] <b>Natural Language Table Transformation:</b>  Enable users to manipulate and transform tabular data using natural language commands. TablesGPT will be able to interpret and execute a variety of data operations, such as filtering, sorting, and aggregating, based on user-provided text instructions. 
+
+### Export
+- [ ] <b>SQL Query Export: </b> Provide users with the ability to generate SQL queries tailored for inserting the generated JSON data into their preferred database system.
+
+## Getting Started
+### Starting the React Frontend
+1. Navigate to the `frontend` directory:
+```bash
+$ cd frontend
+```
+2. Install the required dependencies (if you haven't already):
+```bash
+$ npm install
+```
+3. Start the React frontend:
+```bash
+$ npm start
+```
+
+### Starting the Flask API
+1. Navigate to the `apis` directory:
+```bash
+$ cd apis
+```
+2. Install the required dependencies (if you haven't already):
+```bash
+$ python -m pip install -r requirements.txt
+```
+3. Run the Flask API server:
+```bash
+$ python app.py
+```
+
+### Supporting TablesGPT
 
 If you would like to support the project financially, visit our campaign on [OpenCollective](). Your contributions help accelerate the development of TablesGPT!
 
 
-<h3 style="font-family: Monospace">Interested in Contributing?</h3>
-<p>Please consider contributing to our community-driven project and help shape the future of productivity applications.</p>
+### Interested in Contributing?
+We welcome and appreciate any contributions to our community-driven project. Our goals are to enhance the accessibility and usability of tabular data manipulation, and to make it significantly easier for users with limited technical expertise to interact with and analyze complex datasets. 🚀
 
-1. Read the [Code of Conduct](https://www.contributor-covenant.org/) <br>
-2. Read the [Contributing Guidelines]() <br>
+#### Types of Contributions
+Discussions, bug reports, issues, and pull requests are all welcome. If you're interested in contributing through pull requests, please follow the guidelines below.
+
+#### Pull Request Guidelines
+* Review Issues and Pull Requests before submitting your own.
+* Fork the repository and create your branch from the master branch.
+* Make sure your code is well-documented, easy to understand, and readable.
+* Provide a clear and concise description of the changes made in the pull request.
+* Ensure that your pull request has a descriptive title and a reference to the relevant issue(s).
+* Be responsive and open to feedback and suggestions from the community.
+* Please be patient, as we have a small team at the moment and only one person reviewing the pull requests.
