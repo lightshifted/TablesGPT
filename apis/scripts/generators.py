@@ -13,8 +13,8 @@ try:
 except Exception as e:
     print(f"Error loading the .env file: {e}")
 
-def create_llm_predictor():
-    return StructuredLLMPredictor()
+def create_llm_predictor(model: str="gpt-3.5-turbo"):
+    return StructuredLLMPredictor(llm=model)
 
 def load_documents(input_dir='./output_files'):
     return SimpleDirectoryReader(input_dir=input_dir).load_data()
@@ -31,9 +31,15 @@ def create_qa_prompt(fmt_qa_tmpl, output_parser):
 def create_refine_prompt(fmt_refine_tmpl, output_parser):
     return RefinePrompt(fmt_refine_tmpl, output_parser=output_parser)
 
-def llm_index_generator(prompt="What are the values in column 'Pay Scale Area'?", llm_predictor=None, documents=None, index=None):
+def llm_index_generator(
+        prompt="What are the values in column 'Pay Scale Area'?", 
+        llm_predictor=None, 
+        documents=None, 
+        index=None,
+        model="gpt-4",
+    ):
     if not llm_predictor:
-        llm_predictor = create_llm_predictor()
+        llm_predictor = create_llm_predictor(model=model)
     if not documents:
         documents = load_documents()
     if not index:
