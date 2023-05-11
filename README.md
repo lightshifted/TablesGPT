@@ -35,6 +35,7 @@
 ## Getting Started
 ### Setting  your OpenAI API Key
 1️⃣ Navigate to the `apis` directory 
+
 2️⃣ Update the `.env` file with your OpenAI API key.
 
 ### Starting the React Frontend
