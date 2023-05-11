@@ -23,7 +23,7 @@
 
 ### Extract
 
-- [ ] <b>PDF Table Extraction:</b> Enable users to efficiently extract structured tabular data from PDF documents. The implementation will be designed to handle varying table formats, with the capability to accurately identify and parse data from both simple and complex table structures.<br>
+- [x] <b>PDF Table Extraction:</b> Enable users to efficiently extract structured tabular data from PDF documents. The implementation will be designed to handle varying table formats, with the capability to accurately identify and parse data from both simple and complex table structures.<br>
 
 ### Transform
 
