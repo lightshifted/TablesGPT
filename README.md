@@ -41,11 +41,11 @@
 ```bash
 $ cd frontend
 ```
-1. Install the required dependencies (if you haven't already):
+2. Install the required dependencies (if you haven't already):
 ```bash
 $ npm install
 ```
-1. Start the React frontend:
+3. Start the React frontend:
 ```bash
 $ npm start
 ```
