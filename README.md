@@ -34,32 +34,33 @@
 
 ## Getting Started
 ### Setting  your OpenAI API Key
-1. Navigate to the `apis` directory 
-2. Update the `.env` file with your OpenAI API key.
+1️⃣ Navigate to the `apis` directory 
+2️⃣ Update the `.env` file with your OpenAI API key.
+
 ### Starting the React Frontend
-1. Navigate to the `frontend` directory:
+1️⃣ Navigate to the `frontend` directory:
 ```bash
 $ cd frontend
 ```
-2. Install the required dependencies (if you haven't already):
+2️⃣ Install the required dependencies (if you haven't already):
 ```bash
 $ npm install
 ```
-3. Start the React frontend:
+3️⃣Start the React frontend:
 ```bash
 $ npm start
 ```
 
 ### Starting the Flask API
-1. Navigate to the `apis` directory:
+1️⃣ Navigate to the `apis` directory:
 ```bash
 $ cd apis
 ```
-2. Install the required dependencies (if you haven't already):
+2️⃣ Install the required dependencies (if you haven't already):
 ```bash
 $ python -m pip install -r requirements.txt
 ```
-3. Run the Flask API server:
+3️⃣ Run the Flask API server:
 ```bash
 $ python app.py
 ```
