@@ -25,10 +25,6 @@
 
 - [x] <b>PDF Table Extraction:</b> Enable users to efficiently extract structured tabular data from PDF documents. The implementation will be designed to handle varying table formats, with the capability to accurately identify and parse data from both simple and complex table structures.<br>
 
-### Transform
-
-- [ ] <b>Natural Language Table Transformation:</b>  Enable users to manipulate and transform tabular data using natural language commands. TablesGPT will be able to interpret and execute a variety of data operations, such as filtering, sorting, and aggregating, based on user-provided text instructions. 
-
 ### Export
 - [ ] <b>SQL Query Export: </b> Provide users with the ability to generate SQL queries tailored for inserting the generated JSON data into their preferred database system.
 
